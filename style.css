@@ -1,0 +1,365 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family:Poppins,Helvetica, Arial, Lucida;
+    font-size: 14px;
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-right: 20px;
+}
+
+.navmenu{
+    position:relative;
+    padding-right: 25px;
+}
+
+.navmenu a{
+    text-decoration: none;
+    background-color: transparent;
+    color: black;
+}
+
+.navmenu:hover .submenu{
+    display:block;
+    background-color: white;
+    opacity: 80%;
+}
+
+.sel{
+    border: none;
+    outline: none;
+    cursor: pointer;
+    color: rgb(4, 4, 126);
+    font-stretch: extra-expanded;
+    font-weight: 600;
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+
+.sel:hover{
+    color: rgba(4, 4, 126, 0.562);
+}
+
+.submenu{
+    display:none;
+    position: absolute;
+    word-wrap: break-word;
+    text-align: left;
+    opacity: 80%;
+    width: 250px;
+    line-height: 35px;
+    font-weight: 600;
+    font-size: small;
+    background-color: transparent;
+    padding: 30px;
+}
+
+.submenu p:hover{
+    background-color: whitesmoke;
+}
+
+.submenu a:hover{
+    color: rgba(0, 0, 0, 0.742);
+    background-color: whitesmoke;
+}
+
+.button{
+    border: none;
+    background-color: transparent;
+}
+
+.button a{
+    color: darkblue;
+}
+
+#section1{
+    display: flex;
+    gap: 40px;
+    background-color: #fffdf4;
+    background-image: linear-gradient(270deg,#fffdf4,white);
+}
+
+#section1a{
+    position: relative;
+    margin-top: 65px;
+    margin-left: 125px;
+    width: 38%;
+}
+
+#section1a h1{
+    font-size: 64px;
+    line-height: 70.4px;
+    color: #000E42;
+    font-weight: 700px;
+}
+
+#section1a p{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28.8px;
+    margin-top: 10px;
+}
+
+#section1a button{
+    margin-bottom: 10px;
+    color: white;
+    border: transparent;
+    background: #00208a;
+    padding: 16px 32px;
+    border-radius: 12px;
+}
+
+#section1b{
+    margin-right: 100px;
+}
+
+#section2{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 60px;
+    margin: 100px 125px;
+}
+
+.line{
+    border-style:solid;
+}
+
+#section2b{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+#section2b h1{
+    font-size: 32px;
+    line-height: 38.4px;
+    font-weight: 500;
+    margin-top: 70px;
+}
+
+#section2b p{
+    color: #666666;
+    line-height: 24.5px;
+    font-weight: 500;
+}
+
+#section3{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 50px;
+    margin: 10px 125px;
+}
+
+.section3 h3{
+    color: #000E54;
+    font-size: 20px;
+    line-height: 28px;
+    font: 700;
+}
+
+.section3 span{
+    color: #666666;
+    font-size: 14px;
+    line-height: 23.1px;
+    font-weight: 500;
+}
+
+.section3 a{
+    color: #26364E;
+    font-size: 16px;
+    line-height: 27.2px;
+    font-weight: 500px;
+    text-decoration: none;
+}
+
+.section3 h6{
+    margin-top: 60px;
+    color: #333333;
+    font-size: 18px;
+    line-height: 25.2px;
+    font-weight: 700px;
+}
+
+.section3 p{
+    color: #666666;
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 500;
+}
+
+.section3 b{
+    font-size: 16px;
+}
+
+.line{
+    border-style:groove;
+    border-color: #9eced3;
+}
+
+#section4{
+    padding: 50px 125px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 1750px;
+    gap: 40px;
+    justify-content: space-around;
+}
+
+#section4a h2{
+    color: #333333;
+    font-size: 48px;
+    line-height: 57.6px;
+    letter-spacing: -2px;
+    font-weight: 600;
+}
+
+#section4a p{
+    color: #666666;
+    font-size: 16px;
+    line-height: 28.8px;
+    font-weight: 500;
+}
+
+#section4a a{
+    color: #2C2D6F;
+    font-size: 14px;
+    line-height: 23.8px;
+    font-weight: 600;
+}
+
+.section4{
+    width: 450px;
+    padding: 50px;
+    border-radius: 20px;
+}
+
+.section4 h3{
+    color: #141313;
+    font-size: 28px;
+    line-height: 39.2px;
+    font-weight: 600;
+}
+
+.section4 p{
+    color: #000000;
+    font-size: 14px;
+    line-height: 25.2px;
+    padding-bottom: 14px;
+    font-weight: 500;
+    letter-spacing: -0.5px;
+}
+
+.section4 a{
+    color: #2C2D6F;
+    font-size: 14px;
+    line-height: 23.8px;
+    font-weight: 600;
+}
+
+.section4 a:hover{
+    color: #E06100;
+    font-size: 14px;
+    line-height: 23.8px;
+    font-weight: 600;
+    background-color: white;
+    border-radius: 20px;
+}
+
+#section5 h2{
+    color: #333333;
+    font-size: 27px;
+    font-family: Helvetica;
+    line-height: 32.4px;
+    font-weight: 600;
+    width: 40%;
+    margin-left: 125px;
+}
+
+#section5a{
+    height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 125px;
+    margin-right: 125px;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+#section5a div{
+    scale: 0.7;
+}
+
+#section6{
+    background-image: linear-gradient(270deg, rgba(0,11,63,2.5),rgba(20,20,20,0.3)), url(img/DSC_9054-scaled.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 65vh;
+    color: white;
+    padding-top: 50px;
+    padding-left: 100px;
+}
+
+#section6a{
+    display: inline-block;
+    width: 360px;
+}
+
+#section6b{
+    display: inline-block;
+    padding-top: 0px;
+    width: 50%;
+    margin-left: 55px;
+    vertical-align:top;
+    line-height: 1.5em;
+    font-size: large;
+}
+
+#section6b div{
+    font-size: 50px;
+    font-weight: bolder;
+    line-height: 1.5em;
+}
+
+#section6b button{
+    padding: 15px;
+    border: transparent;
+    background-color: #00208a;
+    color: white;
+    border-radius: 30px;
+    margin-top: 15px;
+}
+
+
+
+
+#fifthBlk {
+    background-color: #000b3f;
+    color: white;
+    padding-top: 50px;
+    padding-left: 100px;
+    height: 400px;
+}
+
+#fifthBlk button{
+    margin-bottom: 20px;
+    color: white;
+    border: transparent;
+    background: #00208a;
+    padding: 20px 25px;
+    border-radius: 30px;
+    font-weight: bolder;
+    font-size: 14px;
+}
